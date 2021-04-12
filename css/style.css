@@ -524,6 +524,32 @@ body {
     margin: 0;
     padding: 0;
     margin: 40px 0 0; }
+    .content__list--service {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .content__list--service .content__item {
+        display: block;
+        text-align: center;
+        width: 49%;
+        margin: 0; }
+        .content__list--service .content__item a {
+          text-decoration: none;
+          color: #242424; }
+          .content__list--service .content__item a:hover {
+            color: #2866ae; }
+        .content__list--service .content__item img {
+          width: 100%;
+          height: auto; }
+        .content__list--service .content__item h2 {
+          font-weight: 700;
+          font-size: 1.55em;
+          line-height: 155%;
+          margin: 0;
+          margin: 16px 0 0; }
   .content__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -550,6 +576,21 @@ body {
       margin: 24px 0 0; }
     .content__list {
       margin: 32px 0 0; }
+      .content__list--service {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        .content__list--service .content__item {
+          width: 100%;
+          max-width: 579px;
+          margin: 0 auto 32px; }
+          .content__list--service .content__item h2 {
+            font-weight: 700;
+            font-size: 1.55em;
+            line-height: 155%;
+            margin: 0;
+            margin: 8px 0 0; }
     .content__item {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -570,6 +611,17 @@ body {
 @media (max-width: 767px) {
   .content {
     margin: 0; }
+    .content__list {
+      margin: 32px 0 0; }
+      .content__list--service {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        .content__list--service .content__item {
+          margin: 0 auto 24px; }
+          .content__list--service .content__item img {
+            display: block; }
     .content__item img {
       display: none; } }
 
